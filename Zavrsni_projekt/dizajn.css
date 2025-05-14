@@ -20,8 +20,7 @@ p{
 }
 .izlog{
     border: 3px solid black;
-    max-width: 15vw ;
-    max-height: 40vh;
+    width: 22% ;
     border-radius: 15px;
     text-align: center;
 }
@@ -95,7 +94,7 @@ p{
 }
 #poruke{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-content: center;
     margin-top: 20%;
 }
@@ -133,6 +132,13 @@ p{
 
 #indexImg{
     width: 90%;
+    position: relative;
+}
+#pocImgdruga{
+    display: none;
+}
+#pocImgprva{
+    display: block;
 }
 
 #index{
@@ -152,4 +158,15 @@ footer{
     color: white;
     margin-top: 50%;
     height: 20vh;
+}
+
+#shop{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.slikice{
+    height: 500px;
+    width: 100%;
 }
